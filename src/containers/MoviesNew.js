@@ -23,7 +23,6 @@ class MoviesNew extends Component {
 
     // Destructure addMovie and history from the components props
     const { addMovie, history } = this.props;
-debugger;
 
     // Create the movie with the Redux action
     addMovie(this.state);

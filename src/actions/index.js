@@ -1,4 +1,4 @@
-let counter = 3;
+let counter = 5;
 
 export function addMovie(movie) {
   movie.id = ++counter;
